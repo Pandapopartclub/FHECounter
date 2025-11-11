@@ -4,7 +4,7 @@ pragma solidity ^0.8.24;
 import "https://cdn.jsdelivr.net/npm/@fhevm/solidity@0.7.0/lib/FHE.sol";
 import "https://cdn.jsdelivr.net/npm/@fhevm/solidity@0.7.0/config/ZamaConfig.sol";
 
-contract FHECounterV7 is SepoliaConfig {
+contract FHECounter is SepoliaConfig {
     euint32 private _count;
 
     function getCount() external view returns (euint32) {
